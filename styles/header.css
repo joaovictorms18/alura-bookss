@@ -27,7 +27,15 @@
     display: none;
     position: absolute;
     top:100%;
+    width: 60vw;
 }
 .container_botao:checked~.lista-menu{
     display: block;
+}
+.lista-menu__titulo, .lista-menu__item{
+    background: linear-gradient(97.54deg, #ffffff 35.49%, #ffffff89 165.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparente;
+    background-clip:text;
+    text-transform: uppercase;
 }
